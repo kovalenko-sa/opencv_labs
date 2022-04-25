@@ -18,6 +18,7 @@
 /home/semyon/opencv_study/build/CMakeFiles/blending.dir
 /home/semyon/opencv_study/build/CMakeFiles/ExperimentalConfigure.dir
 /home/semyon/opencv_study/build/CMakeFiles/Continuous.dir
+/home/semyon/opencv_study/build/CMakeFiles/lab_2.dir
 /home/semyon/opencv_study/build/CMakeFiles/NightlyTest.dir
 /home/semyon/opencv_study/build/CMakeFiles/main.dir
 /home/semyon/opencv_study/build/CMakeFiles/Nightly.dir

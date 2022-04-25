@@ -9,6 +9,8 @@ enable_testing()
 add_executable(main main.cpp)
 add_executable(tank tank.cpp)
 add_executable(blending blending.cpp)
+add_executable(lab_2 lab_2.cpp)
+
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
@@ -16,3 +18,4 @@ include(CPack)
 target_link_libraries(main ${OpenCV_LIBS})
 target_link_libraries(tank ${OpenCV_LIBS})
 target_link_libraries(blending ${OpenCV_LIBS})
+target_link_libraries(lab_2 ${OpenCV_LIBS})

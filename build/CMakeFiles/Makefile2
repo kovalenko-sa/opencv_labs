@@ -55,6 +55,7 @@ CMAKE_BINARY_DIR = /home/semyon/opencv_study/build
 # The main recursive "all" target.
 all: CMakeFiles/tank.dir/all
 all: CMakeFiles/blending.dir/all
+all: CMakeFiles/lab_2.dir/all
 all: CMakeFiles/main.dir/all
 
 .PHONY : all
@@ -81,6 +82,7 @@ clean: CMakeFiles/ContinuousCoverage.dir/clean
 clean: CMakeFiles/blending.dir/clean
 clean: CMakeFiles/ExperimentalConfigure.dir/clean
 clean: CMakeFiles/Continuous.dir/clean
+clean: CMakeFiles/lab_2.dir/clean
 clean: CMakeFiles/NightlyTest.dir/clean
 clean: CMakeFiles/main.dir/clean
 clean: CMakeFiles/Nightly.dir/clean
@@ -106,7 +108,7 @@ clean: CMakeFiles/ContinuousSubmit.dir/clean
 CMakeFiles/tank.dir/all:
 	$(MAKE) -f CMakeFiles/tank.dir/build.make CMakeFiles/tank.dir/depend
 	$(MAKE) -f CMakeFiles/tank.dir/build.make CMakeFiles/tank.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/semyon/opencv_study/build/CMakeFiles --progress-num=5,6 "Built target tank"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/semyon/opencv_study/build/CMakeFiles --progress-num=7,8 "Built target tank"
 .PHONY : CMakeFiles/tank.dir/all
 
 # Build rule for subdir invocation for target.
@@ -532,6 +534,33 @@ CMakeFiles/Continuous.dir/clean:
 .PHONY : CMakeFiles/Continuous.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/lab_2.dir
+
+# All Build rule for target.
+CMakeFiles/lab_2.dir/all:
+	$(MAKE) -f CMakeFiles/lab_2.dir/build.make CMakeFiles/lab_2.dir/depend
+	$(MAKE) -f CMakeFiles/lab_2.dir/build.make CMakeFiles/lab_2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/semyon/opencv_study/build/CMakeFiles --progress-num=3,4 "Built target lab_2"
+.PHONY : CMakeFiles/lab_2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/lab_2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/semyon/opencv_study/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/lab_2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/semyon/opencv_study/build/CMakeFiles 0
+.PHONY : CMakeFiles/lab_2.dir/rule
+
+# Convenience name for target.
+lab_2: CMakeFiles/lab_2.dir/rule
+
+.PHONY : lab_2
+
+# clean rule for target.
+CMakeFiles/lab_2.dir/clean:
+	$(MAKE) -f CMakeFiles/lab_2.dir/build.make CMakeFiles/lab_2.dir/clean
+.PHONY : CMakeFiles/lab_2.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/NightlyTest.dir
 
 # All Build rule for target.
@@ -565,7 +594,7 @@ CMakeFiles/NightlyTest.dir/clean:
 CMakeFiles/main.dir/all:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/semyon/opencv_study/build/CMakeFiles --progress-num=3,4 "Built target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/semyon/opencv_study/build/CMakeFiles --progress-num=5,6 "Built target main"
 .PHONY : CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.

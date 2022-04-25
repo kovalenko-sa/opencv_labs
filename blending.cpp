@@ -18,7 +18,7 @@ int main()
   final_img.create(img_1.rows, img_1.cols, CV_8UC3);
   Vec3b final_pixel = img_1.at<Vec3b>(i,j);
 
-  double alpha = 0.9;
+  double alpha = 0.5;
   double beta = 1 - alpha;
 
   for (int i = 0; i < img_1.rows; i++)

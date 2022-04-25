@@ -11,6 +11,11 @@
 },
 {
   "directory": "/home/semyon/opencv_study/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/lab_2.dir/lab_2.cpp.o -c /home/semyon/opencv_study/lab_2.cpp",
+  "file": "/home/semyon/opencv_study/lab_2.cpp"
+},
+{
+  "directory": "/home/semyon/opencv_study/build",
   "command": "/bin/x86_64-linux-gnu-g++-9   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/main.dir/main.cpp.o -c /home/semyon/opencv_study/main.cpp",
   "file": "/home/semyon/opencv_study/main.cpp"
 }

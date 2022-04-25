@@ -352,6 +352,19 @@ Continuous/fast:
 .PHONY : Continuous/fast
 
 #=============================================================================
+# Target rules for targets named lab_2
+
+# Build rule for target.
+lab_2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab_2
+.PHONY : lab_2
+
+# fast build rule for target.
+lab_2/fast:
+	$(MAKE) -f CMakeFiles/lab_2.dir/build.make CMakeFiles/lab_2.dir/build
+.PHONY : lab_2/fast
+
+#=============================================================================
 # Target rules for targets named NightlyTest
 
 # Build rule for target.
@@ -573,6 +586,33 @@ blending.cpp.s:
 	$(MAKE) -f CMakeFiles/blending.dir/build.make CMakeFiles/blending.dir/blending.cpp.s
 .PHONY : blending.cpp.s
 
+lab_2.o: lab_2.cpp.o
+
+.PHONY : lab_2.o
+
+# target to build an object file
+lab_2.cpp.o:
+	$(MAKE) -f CMakeFiles/lab_2.dir/build.make CMakeFiles/lab_2.dir/lab_2.cpp.o
+.PHONY : lab_2.cpp.o
+
+lab_2.i: lab_2.cpp.i
+
+.PHONY : lab_2.i
+
+# target to preprocess a source file
+lab_2.cpp.i:
+	$(MAKE) -f CMakeFiles/lab_2.dir/build.make CMakeFiles/lab_2.dir/lab_2.cpp.i
+.PHONY : lab_2.cpp.i
+
+lab_2.s: lab_2.cpp.s
+
+.PHONY : lab_2.s
+
+# target to generate assembly for a file
+lab_2.cpp.s:
+	$(MAKE) -f CMakeFiles/lab_2.dir/build.make CMakeFiles/lab_2.dir/lab_2.cpp.s
+.PHONY : lab_2.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -653,6 +693,7 @@ help:
 	@echo "... blending"
 	@echo "... ExperimentalConfigure"
 	@echo "... Continuous"
+	@echo "... lab_2"
 	@echo "... NightlyTest"
 	@echo "... main"
 	@echo "... Nightly"
@@ -672,6 +713,9 @@ help:
 	@echo "... blending.o"
 	@echo "... blending.i"
 	@echo "... blending.s"
+	@echo "... lab_2.o"
+	@echo "... lab_2.i"
+	@echo "... lab_2.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
