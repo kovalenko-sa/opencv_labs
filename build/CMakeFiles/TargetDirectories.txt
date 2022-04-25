@@ -1,6 +1,8 @@
 /home/semyon/opencv_study/build/CMakeFiles/rebuild_cache.dir
 /home/semyon/opencv_study/build/CMakeFiles/test.dir
 /home/semyon/opencv_study/build/CMakeFiles/package_source.dir
+/home/semyon/opencv_study/build/CMakeFiles/task_2.dir
+/home/semyon/opencv_study/build/CMakeFiles/task_1.dir
 /home/semyon/opencv_study/build/CMakeFiles/tank.dir
 /home/semyon/opencv_study/build/CMakeFiles/edit_cache.dir
 /home/semyon/opencv_study/build/CMakeFiles/NightlyMemCheck.dir
@@ -12,9 +14,11 @@
 /home/semyon/opencv_study/build/CMakeFiles/ContinuousUpdate.dir
 /home/semyon/opencv_study/build/CMakeFiles/NightlyUpdate.dir
 /home/semyon/opencv_study/build/CMakeFiles/ExperimentalMemCheck.dir
+/home/semyon/opencv_study/build/CMakeFiles/task_3.dir
 /home/semyon/opencv_study/build/CMakeFiles/ExperimentalSubmit.dir
 /home/semyon/opencv_study/build/CMakeFiles/Experimental.dir
 /home/semyon/opencv_study/build/CMakeFiles/ContinuousCoverage.dir
+/home/semyon/opencv_study/build/CMakeFiles/task_4.dir
 /home/semyon/opencv_study/build/CMakeFiles/blending.dir
 /home/semyon/opencv_study/build/CMakeFiles/ExperimentalConfigure.dir
 /home/semyon/opencv_study/build/CMakeFiles/Continuous.dir

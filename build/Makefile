@@ -144,6 +144,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named task_2
+
+# Build rule for target.
+task_2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 task_2
+.PHONY : task_2
+
+# fast build rule for target.
+task_2/fast:
+	$(MAKE) -f CMakeFiles/task_2.dir/build.make CMakeFiles/task_2.dir/build
+.PHONY : task_2/fast
+
+#=============================================================================
+# Target rules for targets named task_1
+
+# Build rule for target.
+task_1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 task_1
+.PHONY : task_1
+
+# fast build rule for target.
+task_1/fast:
+	$(MAKE) -f CMakeFiles/task_1.dir/build.make CMakeFiles/task_1.dir/build
+.PHONY : task_1/fast
+
+#=============================================================================
 # Target rules for targets named tank
 
 # Build rule for target.
@@ -274,6 +300,19 @@ ExperimentalMemCheck/fast:
 .PHONY : ExperimentalMemCheck/fast
 
 #=============================================================================
+# Target rules for targets named task_3
+
+# Build rule for target.
+task_3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 task_3
+.PHONY : task_3
+
+# fast build rule for target.
+task_3/fast:
+	$(MAKE) -f CMakeFiles/task_3.dir/build.make CMakeFiles/task_3.dir/build
+.PHONY : task_3/fast
+
+#=============================================================================
 # Target rules for targets named ExperimentalSubmit
 
 # Build rule for target.
@@ -311,6 +350,19 @@ ContinuousCoverage: cmake_check_build_system
 ContinuousCoverage/fast:
 	$(MAKE) -f CMakeFiles/ContinuousCoverage.dir/build.make CMakeFiles/ContinuousCoverage.dir/build
 .PHONY : ContinuousCoverage/fast
+
+#=============================================================================
+# Target rules for targets named task_4
+
+# Build rule for target.
+task_4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 task_4
+.PHONY : task_4
+
+# fast build rule for target.
+task_4/fast:
+	$(MAKE) -f CMakeFiles/task_4.dir/build.make CMakeFiles/task_4.dir/build
+.PHONY : task_4/fast
 
 #=============================================================================
 # Target rules for targets named blending
@@ -613,6 +665,114 @@ lab_2.cpp.s:
 	$(MAKE) -f CMakeFiles/lab_2.dir/build.make CMakeFiles/lab_2.dir/lab_2.cpp.s
 .PHONY : lab_2.cpp.s
 
+lab_3/task_1.o: lab_3/task_1.cpp.o
+
+.PHONY : lab_3/task_1.o
+
+# target to build an object file
+lab_3/task_1.cpp.o:
+	$(MAKE) -f CMakeFiles/task_1.dir/build.make CMakeFiles/task_1.dir/lab_3/task_1.cpp.o
+.PHONY : lab_3/task_1.cpp.o
+
+lab_3/task_1.i: lab_3/task_1.cpp.i
+
+.PHONY : lab_3/task_1.i
+
+# target to preprocess a source file
+lab_3/task_1.cpp.i:
+	$(MAKE) -f CMakeFiles/task_1.dir/build.make CMakeFiles/task_1.dir/lab_3/task_1.cpp.i
+.PHONY : lab_3/task_1.cpp.i
+
+lab_3/task_1.s: lab_3/task_1.cpp.s
+
+.PHONY : lab_3/task_1.s
+
+# target to generate assembly for a file
+lab_3/task_1.cpp.s:
+	$(MAKE) -f CMakeFiles/task_1.dir/build.make CMakeFiles/task_1.dir/lab_3/task_1.cpp.s
+.PHONY : lab_3/task_1.cpp.s
+
+lab_3/task_2.o: lab_3/task_2.cpp.o
+
+.PHONY : lab_3/task_2.o
+
+# target to build an object file
+lab_3/task_2.cpp.o:
+	$(MAKE) -f CMakeFiles/task_2.dir/build.make CMakeFiles/task_2.dir/lab_3/task_2.cpp.o
+.PHONY : lab_3/task_2.cpp.o
+
+lab_3/task_2.i: lab_3/task_2.cpp.i
+
+.PHONY : lab_3/task_2.i
+
+# target to preprocess a source file
+lab_3/task_2.cpp.i:
+	$(MAKE) -f CMakeFiles/task_2.dir/build.make CMakeFiles/task_2.dir/lab_3/task_2.cpp.i
+.PHONY : lab_3/task_2.cpp.i
+
+lab_3/task_2.s: lab_3/task_2.cpp.s
+
+.PHONY : lab_3/task_2.s
+
+# target to generate assembly for a file
+lab_3/task_2.cpp.s:
+	$(MAKE) -f CMakeFiles/task_2.dir/build.make CMakeFiles/task_2.dir/lab_3/task_2.cpp.s
+.PHONY : lab_3/task_2.cpp.s
+
+lab_3/task_3.o: lab_3/task_3.cpp.o
+
+.PHONY : lab_3/task_3.o
+
+# target to build an object file
+lab_3/task_3.cpp.o:
+	$(MAKE) -f CMakeFiles/task_3.dir/build.make CMakeFiles/task_3.dir/lab_3/task_3.cpp.o
+.PHONY : lab_3/task_3.cpp.o
+
+lab_3/task_3.i: lab_3/task_3.cpp.i
+
+.PHONY : lab_3/task_3.i
+
+# target to preprocess a source file
+lab_3/task_3.cpp.i:
+	$(MAKE) -f CMakeFiles/task_3.dir/build.make CMakeFiles/task_3.dir/lab_3/task_3.cpp.i
+.PHONY : lab_3/task_3.cpp.i
+
+lab_3/task_3.s: lab_3/task_3.cpp.s
+
+.PHONY : lab_3/task_3.s
+
+# target to generate assembly for a file
+lab_3/task_3.cpp.s:
+	$(MAKE) -f CMakeFiles/task_3.dir/build.make CMakeFiles/task_3.dir/lab_3/task_3.cpp.s
+.PHONY : lab_3/task_3.cpp.s
+
+lab_3/task_4.o: lab_3/task_4.cpp.o
+
+.PHONY : lab_3/task_4.o
+
+# target to build an object file
+lab_3/task_4.cpp.o:
+	$(MAKE) -f CMakeFiles/task_4.dir/build.make CMakeFiles/task_4.dir/lab_3/task_4.cpp.o
+.PHONY : lab_3/task_4.cpp.o
+
+lab_3/task_4.i: lab_3/task_4.cpp.i
+
+.PHONY : lab_3/task_4.i
+
+# target to preprocess a source file
+lab_3/task_4.cpp.i:
+	$(MAKE) -f CMakeFiles/task_4.dir/build.make CMakeFiles/task_4.dir/lab_3/task_4.cpp.i
+.PHONY : lab_3/task_4.cpp.i
+
+lab_3/task_4.s: lab_3/task_4.cpp.s
+
+.PHONY : lab_3/task_4.s
+
+# target to generate assembly for a file
+lab_3/task_4.cpp.s:
+	$(MAKE) -f CMakeFiles/task_4.dir/build.make CMakeFiles/task_4.dir/lab_3/task_4.cpp.s
+.PHONY : lab_3/task_4.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -676,6 +836,8 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... package_source"
+	@echo "... task_2"
+	@echo "... task_1"
 	@echo "... tank"
 	@echo "... edit_cache"
 	@echo "... NightlyMemCheck"
@@ -687,9 +849,11 @@ help:
 	@echo "... ContinuousUpdate"
 	@echo "... NightlyUpdate"
 	@echo "... ExperimentalMemCheck"
+	@echo "... task_3"
 	@echo "... ExperimentalSubmit"
 	@echo "... Experimental"
 	@echo "... ContinuousCoverage"
+	@echo "... task_4"
 	@echo "... blending"
 	@echo "... ExperimentalConfigure"
 	@echo "... Continuous"
@@ -716,6 +880,18 @@ help:
 	@echo "... lab_2.o"
 	@echo "... lab_2.i"
 	@echo "... lab_2.s"
+	@echo "... lab_3/task_1.o"
+	@echo "... lab_3/task_1.i"
+	@echo "... lab_3/task_1.s"
+	@echo "... lab_3/task_2.o"
+	@echo "... lab_3/task_2.i"
+	@echo "... lab_3/task_2.s"
+	@echo "... lab_3/task_3.o"
+	@echo "... lab_3/task_3.i"
+	@echo "... lab_3/task_3.s"
+	@echo "... lab_3/task_4.o"
+	@echo "... lab_3/task_4.i"
+	@echo "... lab_3/task_4.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

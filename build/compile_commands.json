@@ -1,8 +1,28 @@
 [
 {
   "directory": "/home/semyon/opencv_study/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/task_2.dir/lab_3/task_2.cpp.o -c /home/semyon/opencv_study/lab_3/task_2.cpp",
+  "file": "/home/semyon/opencv_study/lab_3/task_2.cpp"
+},
+{
+  "directory": "/home/semyon/opencv_study/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/task_1.dir/lab_3/task_1.cpp.o -c /home/semyon/opencv_study/lab_3/task_1.cpp",
+  "file": "/home/semyon/opencv_study/lab_3/task_1.cpp"
+},
+{
+  "directory": "/home/semyon/opencv_study/build",
   "command": "/bin/x86_64-linux-gnu-g++-9   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/tank.dir/tank.cpp.o -c /home/semyon/opencv_study/tank.cpp",
   "file": "/home/semyon/opencv_study/tank.cpp"
+},
+{
+  "directory": "/home/semyon/opencv_study/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/task_3.dir/lab_3/task_3.cpp.o -c /home/semyon/opencv_study/lab_3/task_3.cpp",
+  "file": "/home/semyon/opencv_study/lab_3/task_3.cpp"
+},
+{
+  "directory": "/home/semyon/opencv_study/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/task_4.dir/lab_3/task_4.cpp.o -c /home/semyon/opencv_study/lab_3/task_4.cpp",
+  "file": "/home/semyon/opencv_study/lab_3/task_4.cpp"
 },
 {
   "directory": "/home/semyon/opencv_study/build",

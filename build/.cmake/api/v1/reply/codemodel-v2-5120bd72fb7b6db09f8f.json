@@ -45,7 +45,11 @@
 						28,
 						29,
 						30,
-						31
+						31,
+						32,
+						33,
+						34,
+						35
 					]
 				}
 			],
@@ -91,7 +95,11 @@
 						28,
 						29,
 						30,
-						31
+						31,
+						32,
+						33,
+						34,
+						35
 					]
 				}
 			],
@@ -296,29 +304,57 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "blending::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-blending-Debug-a6dc61dde83bf408f633.json",
+					"jsonFile" : "target-blending-Debug-b080aac989a1738e40c5.json",
 					"name" : "blending",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "lab_2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-lab_2-Debug-e2cab66c586cdcd3ef0f.json",
+					"jsonFile" : "target-lab_2-Debug-938d35ffe06c5ca3bf37.json",
 					"name" : "lab_2",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "main::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-main-Debug-e846b289981529a1f288.json",
+					"jsonFile" : "target-main-Debug-6fb197e75f01369f9626.json",
 					"name" : "main",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "tank::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-tank-Debug-fb1696b529be9ceaf21d.json",
+					"jsonFile" : "target-tank-Debug-29aa8af326f0bec84917.json",
 					"name" : "tank",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task_1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task_1-Debug-fe407374c18ba5d85865.json",
+					"name" : "task_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task_2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task_2-Debug-5c6b11dfc3136a0da77d.json",
+					"name" : "task_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task_3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task_3-Debug-d762251e2e6a9c2cfbe3.json",
+					"name" : "task_3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task_4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task_4-Debug-c6ed6c31b3c5cba31021.json",
+					"name" : "task_4",
 					"projectIndex" : 0
 				}
 			]
