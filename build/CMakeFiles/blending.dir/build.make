@@ -57,27 +57,27 @@ include CMakeFiles/blending.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/blending.dir/flags.make
 
-CMakeFiles/blending.dir/blending.cpp.o: CMakeFiles/blending.dir/flags.make
-CMakeFiles/blending.dir/blending.cpp.o: ../blending.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/semyon/opencv_study/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/blending.dir/blending.cpp.o"
-	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/blending.dir/blending.cpp.o -c /home/semyon/opencv_study/blending.cpp
+CMakeFiles/blending.dir/lab_1/blending.cpp.o: CMakeFiles/blending.dir/flags.make
+CMakeFiles/blending.dir/lab_1/blending.cpp.o: ../lab_1/blending.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/semyon/opencv_study/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/blending.dir/lab_1/blending.cpp.o"
+	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/blending.dir/lab_1/blending.cpp.o -c /home/semyon/opencv_study/lab_1/blending.cpp
 
-CMakeFiles/blending.dir/blending.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/blending.dir/blending.cpp.i"
-	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/semyon/opencv_study/blending.cpp > CMakeFiles/blending.dir/blending.cpp.i
+CMakeFiles/blending.dir/lab_1/blending.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/blending.dir/lab_1/blending.cpp.i"
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/semyon/opencv_study/lab_1/blending.cpp > CMakeFiles/blending.dir/lab_1/blending.cpp.i
 
-CMakeFiles/blending.dir/blending.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/blending.dir/blending.cpp.s"
-	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/semyon/opencv_study/blending.cpp -o CMakeFiles/blending.dir/blending.cpp.s
+CMakeFiles/blending.dir/lab_1/blending.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/blending.dir/lab_1/blending.cpp.s"
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/semyon/opencv_study/lab_1/blending.cpp -o CMakeFiles/blending.dir/lab_1/blending.cpp.s
 
 # Object files for target blending
 blending_OBJECTS = \
-"CMakeFiles/blending.dir/blending.cpp.o"
+"CMakeFiles/blending.dir/lab_1/blending.cpp.o"
 
 # External object files for target blending
 blending_EXTERNAL_OBJECTS =
 
-blending: CMakeFiles/blending.dir/blending.cpp.o
+blending: CMakeFiles/blending.dir/lab_1/blending.cpp.o
 blending: CMakeFiles/blending.dir/build.make
 blending: /usr/local/lib/libopencv_gapi.so.4.5.4
 blending: /usr/local/lib/libopencv_stitching.so.4.5.4

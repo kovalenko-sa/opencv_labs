@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/blending.dir/blending.cpp.o"
+  "CMakeFiles/blending.dir/lab_1/blending.cpp.o"
   "blending"
   "blending.pdb"
 )

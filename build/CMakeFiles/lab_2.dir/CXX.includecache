@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/semyon/opencv_study/lab_2.cpp
+/home/semyon/opencv_study/lab_2/lab_2.cpp
 opencv2/highgui.hpp
 -
 opencv2/imgproc.hpp

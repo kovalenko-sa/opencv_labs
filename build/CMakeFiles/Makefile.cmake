@@ -61,12 +61,16 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/detect_markers.dir/DependInfo.cmake"
+  "CMakeFiles/create_marker.dir/DependInfo.cmake"
   "CMakeFiles/task_2.dir/DependInfo.cmake"
   "CMakeFiles/task_1.dir/DependInfo.cmake"
   "CMakeFiles/tank.dir/DependInfo.cmake"
   "CMakeFiles/NightlyMemCheck.dir/DependInfo.cmake"
+  "CMakeFiles/lab_5.dir/DependInfo.cmake"
   "CMakeFiles/ContinuousConfigure.dir/DependInfo.cmake"
   "CMakeFiles/ContinuousBuild.dir/DependInfo.cmake"
+  "CMakeFiles/calibrate_camera_charuco.dir/DependInfo.cmake"
   "CMakeFiles/NightlyConfigure.dir/DependInfo.cmake"
   "CMakeFiles/NightlyMemoryCheck.dir/DependInfo.cmake"
   "CMakeFiles/ExperimentalTest.dir/DependInfo.cmake"
@@ -89,6 +93,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/NightlyStart.dir/DependInfo.cmake"
   "CMakeFiles/ExperimentalCoverage.dir/DependInfo.cmake"
   "CMakeFiles/NightlyCoverage.dir/DependInfo.cmake"
+  "CMakeFiles/opencv_version.dir/DependInfo.cmake"
   "CMakeFiles/ExperimentalStart.dir/DependInfo.cmake"
   "CMakeFiles/NightlyBuild.dir/DependInfo.cmake"
   "CMakeFiles/ExperimentalBuild.dir/DependInfo.cmake"
@@ -96,5 +101,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/ContinuousStart.dir/DependInfo.cmake"
   "CMakeFiles/ContinuousMemCheck.dir/DependInfo.cmake"
   "CMakeFiles/ContinuousTest.dir/DependInfo.cmake"
+  "CMakeFiles/create_board_charuco.dir/DependInfo.cmake"
   "CMakeFiles/ContinuousSubmit.dir/DependInfo.cmake"
   )

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/semyon/opencv_study/lab_2.cpp" "/home/semyon/opencv_study/build/CMakeFiles/lab_2.dir/lab_2.cpp.o"
+  "/home/semyon/opencv_study/lab_2/lab_2.cpp" "/home/semyon/opencv_study/build/CMakeFiles/lab_2.dir/lab_2/lab_2.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/semyon/opencv_study/blending.cpp" "/home/semyon/opencv_study/build/CMakeFiles/blending.dir/blending.cpp.o"
+  "/home/semyon/opencv_study/lab_1/blending.cpp" "/home/semyon/opencv_study/build/CMakeFiles/blending.dir/lab_1/blending.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

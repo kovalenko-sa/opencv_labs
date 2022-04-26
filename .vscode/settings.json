@@ -1,5 +1,16 @@
 {
     "files.associations": {
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "array": "cpp",
+        "bitset": "cpp",
+        "string_view": "cpp",
+        "initializer_list": "cpp",
+        "utility": "cpp"
+    },
+    "cmake.debugConfig": {
+        "args": [
+            "calibration.xml" , "-w=5" , "-h=7",  "-sl=0.033" , "-ml=0.0165 " , "-d=10" , "-dp=../detector_params.yml"
+            
+        ]
     }
 }

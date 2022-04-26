@@ -144,6 +144,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named detect_markers
+
+# Build rule for target.
+detect_markers: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 detect_markers
+.PHONY : detect_markers
+
+# fast build rule for target.
+detect_markers/fast:
+	$(MAKE) -f CMakeFiles/detect_markers.dir/build.make CMakeFiles/detect_markers.dir/build
+.PHONY : detect_markers/fast
+
+#=============================================================================
+# Target rules for targets named create_marker
+
+# Build rule for target.
+create_marker: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 create_marker
+.PHONY : create_marker
+
+# fast build rule for target.
+create_marker/fast:
+	$(MAKE) -f CMakeFiles/create_marker.dir/build.make CMakeFiles/create_marker.dir/build
+.PHONY : create_marker/fast
+
+#=============================================================================
 # Target rules for targets named task_2
 
 # Build rule for target.
@@ -196,6 +222,19 @@ NightlyMemCheck/fast:
 .PHONY : NightlyMemCheck/fast
 
 #=============================================================================
+# Target rules for targets named lab_5
+
+# Build rule for target.
+lab_5: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab_5
+.PHONY : lab_5
+
+# fast build rule for target.
+lab_5/fast:
+	$(MAKE) -f CMakeFiles/lab_5.dir/build.make CMakeFiles/lab_5.dir/build
+.PHONY : lab_5/fast
+
+#=============================================================================
 # Target rules for targets named ContinuousConfigure
 
 # Build rule for target.
@@ -220,6 +259,19 @@ ContinuousBuild: cmake_check_build_system
 ContinuousBuild/fast:
 	$(MAKE) -f CMakeFiles/ContinuousBuild.dir/build.make CMakeFiles/ContinuousBuild.dir/build
 .PHONY : ContinuousBuild/fast
+
+#=============================================================================
+# Target rules for targets named calibrate_camera_charuco
+
+# Build rule for target.
+calibrate_camera_charuco: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 calibrate_camera_charuco
+.PHONY : calibrate_camera_charuco
+
+# fast build rule for target.
+calibrate_camera_charuco/fast:
+	$(MAKE) -f CMakeFiles/calibrate_camera_charuco.dir/build.make CMakeFiles/calibrate_camera_charuco.dir/build
+.PHONY : calibrate_camera_charuco/fast
 
 #=============================================================================
 # Target rules for targets named NightlyConfigure
@@ -508,6 +560,19 @@ NightlyCoverage/fast:
 .PHONY : NightlyCoverage/fast
 
 #=============================================================================
+# Target rules for targets named opencv_version
+
+# Build rule for target.
+opencv_version: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 opencv_version
+.PHONY : opencv_version
+
+# fast build rule for target.
+opencv_version/fast:
+	$(MAKE) -f CMakeFiles/opencv_version.dir/build.make CMakeFiles/opencv_version.dir/build
+.PHONY : opencv_version/fast
+
+#=============================================================================
 # Target rules for targets named ExperimentalStart
 
 # Build rule for target.
@@ -599,6 +664,19 @@ ContinuousTest/fast:
 .PHONY : ContinuousTest/fast
 
 #=============================================================================
+# Target rules for targets named create_board_charuco
+
+# Build rule for target.
+create_board_charuco: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 create_board_charuco
+.PHONY : create_board_charuco
+
+# fast build rule for target.
+create_board_charuco/fast:
+	$(MAKE) -f CMakeFiles/create_board_charuco.dir/build.make CMakeFiles/create_board_charuco.dir/build
+.PHONY : create_board_charuco/fast
+
+#=============================================================================
 # Target rules for targets named ContinuousSubmit
 
 # Build rule for target.
@@ -611,59 +689,221 @@ ContinuousSubmit/fast:
 	$(MAKE) -f CMakeFiles/ContinuousSubmit.dir/build.make CMakeFiles/ContinuousSubmit.dir/build
 .PHONY : ContinuousSubmit/fast
 
-blending.o: blending.cpp.o
+calibrate_camera_charuco.o: calibrate_camera_charuco.cpp.o
 
-.PHONY : blending.o
-
-# target to build an object file
-blending.cpp.o:
-	$(MAKE) -f CMakeFiles/blending.dir/build.make CMakeFiles/blending.dir/blending.cpp.o
-.PHONY : blending.cpp.o
-
-blending.i: blending.cpp.i
-
-.PHONY : blending.i
-
-# target to preprocess a source file
-blending.cpp.i:
-	$(MAKE) -f CMakeFiles/blending.dir/build.make CMakeFiles/blending.dir/blending.cpp.i
-.PHONY : blending.cpp.i
-
-blending.s: blending.cpp.s
-
-.PHONY : blending.s
-
-# target to generate assembly for a file
-blending.cpp.s:
-	$(MAKE) -f CMakeFiles/blending.dir/build.make CMakeFiles/blending.dir/blending.cpp.s
-.PHONY : blending.cpp.s
-
-lab_2.o: lab_2.cpp.o
-
-.PHONY : lab_2.o
+.PHONY : calibrate_camera_charuco.o
 
 # target to build an object file
-lab_2.cpp.o:
-	$(MAKE) -f CMakeFiles/lab_2.dir/build.make CMakeFiles/lab_2.dir/lab_2.cpp.o
-.PHONY : lab_2.cpp.o
+calibrate_camera_charuco.cpp.o:
+	$(MAKE) -f CMakeFiles/calibrate_camera_charuco.dir/build.make CMakeFiles/calibrate_camera_charuco.dir/calibrate_camera_charuco.cpp.o
+.PHONY : calibrate_camera_charuco.cpp.o
 
-lab_2.i: lab_2.cpp.i
+calibrate_camera_charuco.i: calibrate_camera_charuco.cpp.i
 
-.PHONY : lab_2.i
+.PHONY : calibrate_camera_charuco.i
 
 # target to preprocess a source file
-lab_2.cpp.i:
-	$(MAKE) -f CMakeFiles/lab_2.dir/build.make CMakeFiles/lab_2.dir/lab_2.cpp.i
-.PHONY : lab_2.cpp.i
+calibrate_camera_charuco.cpp.i:
+	$(MAKE) -f CMakeFiles/calibrate_camera_charuco.dir/build.make CMakeFiles/calibrate_camera_charuco.dir/calibrate_camera_charuco.cpp.i
+.PHONY : calibrate_camera_charuco.cpp.i
 
-lab_2.s: lab_2.cpp.s
+calibrate_camera_charuco.s: calibrate_camera_charuco.cpp.s
 
-.PHONY : lab_2.s
+.PHONY : calibrate_camera_charuco.s
 
 # target to generate assembly for a file
-lab_2.cpp.s:
-	$(MAKE) -f CMakeFiles/lab_2.dir/build.make CMakeFiles/lab_2.dir/lab_2.cpp.s
-.PHONY : lab_2.cpp.s
+calibrate_camera_charuco.cpp.s:
+	$(MAKE) -f CMakeFiles/calibrate_camera_charuco.dir/build.make CMakeFiles/calibrate_camera_charuco.dir/calibrate_camera_charuco.cpp.s
+.PHONY : calibrate_camera_charuco.cpp.s
+
+create_board_charuco.o: create_board_charuco.cpp.o
+
+.PHONY : create_board_charuco.o
+
+# target to build an object file
+create_board_charuco.cpp.o:
+	$(MAKE) -f CMakeFiles/create_board_charuco.dir/build.make CMakeFiles/create_board_charuco.dir/create_board_charuco.cpp.o
+.PHONY : create_board_charuco.cpp.o
+
+create_board_charuco.i: create_board_charuco.cpp.i
+
+.PHONY : create_board_charuco.i
+
+# target to preprocess a source file
+create_board_charuco.cpp.i:
+	$(MAKE) -f CMakeFiles/create_board_charuco.dir/build.make CMakeFiles/create_board_charuco.dir/create_board_charuco.cpp.i
+.PHONY : create_board_charuco.cpp.i
+
+create_board_charuco.s: create_board_charuco.cpp.s
+
+.PHONY : create_board_charuco.s
+
+# target to generate assembly for a file
+create_board_charuco.cpp.s:
+	$(MAKE) -f CMakeFiles/create_board_charuco.dir/build.make CMakeFiles/create_board_charuco.dir/create_board_charuco.cpp.s
+.PHONY : create_board_charuco.cpp.s
+
+create_marker.o: create_marker.cpp.o
+
+.PHONY : create_marker.o
+
+# target to build an object file
+create_marker.cpp.o:
+	$(MAKE) -f CMakeFiles/create_marker.dir/build.make CMakeFiles/create_marker.dir/create_marker.cpp.o
+.PHONY : create_marker.cpp.o
+
+create_marker.i: create_marker.cpp.i
+
+.PHONY : create_marker.i
+
+# target to preprocess a source file
+create_marker.cpp.i:
+	$(MAKE) -f CMakeFiles/create_marker.dir/build.make CMakeFiles/create_marker.dir/create_marker.cpp.i
+.PHONY : create_marker.cpp.i
+
+create_marker.s: create_marker.cpp.s
+
+.PHONY : create_marker.s
+
+# target to generate assembly for a file
+create_marker.cpp.s:
+	$(MAKE) -f CMakeFiles/create_marker.dir/build.make CMakeFiles/create_marker.dir/create_marker.cpp.s
+.PHONY : create_marker.cpp.s
+
+detect_markers.o: detect_markers.cpp.o
+
+.PHONY : detect_markers.o
+
+# target to build an object file
+detect_markers.cpp.o:
+	$(MAKE) -f CMakeFiles/detect_markers.dir/build.make CMakeFiles/detect_markers.dir/detect_markers.cpp.o
+.PHONY : detect_markers.cpp.o
+
+detect_markers.i: detect_markers.cpp.i
+
+.PHONY : detect_markers.i
+
+# target to preprocess a source file
+detect_markers.cpp.i:
+	$(MAKE) -f CMakeFiles/detect_markers.dir/build.make CMakeFiles/detect_markers.dir/detect_markers.cpp.i
+.PHONY : detect_markers.cpp.i
+
+detect_markers.s: detect_markers.cpp.s
+
+.PHONY : detect_markers.s
+
+# target to generate assembly for a file
+detect_markers.cpp.s:
+	$(MAKE) -f CMakeFiles/detect_markers.dir/build.make CMakeFiles/detect_markers.dir/detect_markers.cpp.s
+.PHONY : detect_markers.cpp.s
+
+lab_1/blending.o: lab_1/blending.cpp.o
+
+.PHONY : lab_1/blending.o
+
+# target to build an object file
+lab_1/blending.cpp.o:
+	$(MAKE) -f CMakeFiles/blending.dir/build.make CMakeFiles/blending.dir/lab_1/blending.cpp.o
+.PHONY : lab_1/blending.cpp.o
+
+lab_1/blending.i: lab_1/blending.cpp.i
+
+.PHONY : lab_1/blending.i
+
+# target to preprocess a source file
+lab_1/blending.cpp.i:
+	$(MAKE) -f CMakeFiles/blending.dir/build.make CMakeFiles/blending.dir/lab_1/blending.cpp.i
+.PHONY : lab_1/blending.cpp.i
+
+lab_1/blending.s: lab_1/blending.cpp.s
+
+.PHONY : lab_1/blending.s
+
+# target to generate assembly for a file
+lab_1/blending.cpp.s:
+	$(MAKE) -f CMakeFiles/blending.dir/build.make CMakeFiles/blending.dir/lab_1/blending.cpp.s
+.PHONY : lab_1/blending.cpp.s
+
+lab_1/main.o: lab_1/main.cpp.o
+
+.PHONY : lab_1/main.o
+
+# target to build an object file
+lab_1/main.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lab_1/main.cpp.o
+.PHONY : lab_1/main.cpp.o
+
+lab_1/main.i: lab_1/main.cpp.i
+
+.PHONY : lab_1/main.i
+
+# target to preprocess a source file
+lab_1/main.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lab_1/main.cpp.i
+.PHONY : lab_1/main.cpp.i
+
+lab_1/main.s: lab_1/main.cpp.s
+
+.PHONY : lab_1/main.s
+
+# target to generate assembly for a file
+lab_1/main.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lab_1/main.cpp.s
+.PHONY : lab_1/main.cpp.s
+
+lab_1/tank.o: lab_1/tank.cpp.o
+
+.PHONY : lab_1/tank.o
+
+# target to build an object file
+lab_1/tank.cpp.o:
+	$(MAKE) -f CMakeFiles/tank.dir/build.make CMakeFiles/tank.dir/lab_1/tank.cpp.o
+.PHONY : lab_1/tank.cpp.o
+
+lab_1/tank.i: lab_1/tank.cpp.i
+
+.PHONY : lab_1/tank.i
+
+# target to preprocess a source file
+lab_1/tank.cpp.i:
+	$(MAKE) -f CMakeFiles/tank.dir/build.make CMakeFiles/tank.dir/lab_1/tank.cpp.i
+.PHONY : lab_1/tank.cpp.i
+
+lab_1/tank.s: lab_1/tank.cpp.s
+
+.PHONY : lab_1/tank.s
+
+# target to generate assembly for a file
+lab_1/tank.cpp.s:
+	$(MAKE) -f CMakeFiles/tank.dir/build.make CMakeFiles/tank.dir/lab_1/tank.cpp.s
+.PHONY : lab_1/tank.cpp.s
+
+lab_2/lab_2.o: lab_2/lab_2.cpp.o
+
+.PHONY : lab_2/lab_2.o
+
+# target to build an object file
+lab_2/lab_2.cpp.o:
+	$(MAKE) -f CMakeFiles/lab_2.dir/build.make CMakeFiles/lab_2.dir/lab_2/lab_2.cpp.o
+.PHONY : lab_2/lab_2.cpp.o
+
+lab_2/lab_2.i: lab_2/lab_2.cpp.i
+
+.PHONY : lab_2/lab_2.i
+
+# target to preprocess a source file
+lab_2/lab_2.cpp.i:
+	$(MAKE) -f CMakeFiles/lab_2.dir/build.make CMakeFiles/lab_2.dir/lab_2/lab_2.cpp.i
+.PHONY : lab_2/lab_2.cpp.i
+
+lab_2/lab_2.s: lab_2/lab_2.cpp.s
+
+.PHONY : lab_2/lab_2.s
+
+# target to generate assembly for a file
+lab_2/lab_2.cpp.s:
+	$(MAKE) -f CMakeFiles/lab_2.dir/build.make CMakeFiles/lab_2.dir/lab_2/lab_2.cpp.s
+.PHONY : lab_2/lab_2.cpp.s
 
 lab_3/task_1.o: lab_3/task_1.cpp.o
 
@@ -773,59 +1013,59 @@ lab_3/task_4.cpp.s:
 	$(MAKE) -f CMakeFiles/task_4.dir/build.make CMakeFiles/task_4.dir/lab_3/task_4.cpp.s
 .PHONY : lab_3/task_4.cpp.s
 
-main.o: main.cpp.o
+lab_5/main.o: lab_5/main.cpp.o
 
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
-.PHONY : main.cpp.s
-
-tank.o: tank.cpp.o
-
-.PHONY : tank.o
+.PHONY : lab_5/main.o
 
 # target to build an object file
-tank.cpp.o:
-	$(MAKE) -f CMakeFiles/tank.dir/build.make CMakeFiles/tank.dir/tank.cpp.o
-.PHONY : tank.cpp.o
+lab_5/main.cpp.o:
+	$(MAKE) -f CMakeFiles/lab_5.dir/build.make CMakeFiles/lab_5.dir/lab_5/main.cpp.o
+.PHONY : lab_5/main.cpp.o
 
-tank.i: tank.cpp.i
+lab_5/main.i: lab_5/main.cpp.i
 
-.PHONY : tank.i
+.PHONY : lab_5/main.i
 
 # target to preprocess a source file
-tank.cpp.i:
-	$(MAKE) -f CMakeFiles/tank.dir/build.make CMakeFiles/tank.dir/tank.cpp.i
-.PHONY : tank.cpp.i
+lab_5/main.cpp.i:
+	$(MAKE) -f CMakeFiles/lab_5.dir/build.make CMakeFiles/lab_5.dir/lab_5/main.cpp.i
+.PHONY : lab_5/main.cpp.i
 
-tank.s: tank.cpp.s
+lab_5/main.s: lab_5/main.cpp.s
 
-.PHONY : tank.s
+.PHONY : lab_5/main.s
 
 # target to generate assembly for a file
-tank.cpp.s:
-	$(MAKE) -f CMakeFiles/tank.dir/build.make CMakeFiles/tank.dir/tank.cpp.s
-.PHONY : tank.cpp.s
+lab_5/main.cpp.s:
+	$(MAKE) -f CMakeFiles/lab_5.dir/build.make CMakeFiles/lab_5.dir/lab_5/main.cpp.s
+.PHONY : lab_5/main.cpp.s
+
+opencv_version.o: opencv_version.cpp.o
+
+.PHONY : opencv_version.o
+
+# target to build an object file
+opencv_version.cpp.o:
+	$(MAKE) -f CMakeFiles/opencv_version.dir/build.make CMakeFiles/opencv_version.dir/opencv_version.cpp.o
+.PHONY : opencv_version.cpp.o
+
+opencv_version.i: opencv_version.cpp.i
+
+.PHONY : opencv_version.i
+
+# target to preprocess a source file
+opencv_version.cpp.i:
+	$(MAKE) -f CMakeFiles/opencv_version.dir/build.make CMakeFiles/opencv_version.dir/opencv_version.cpp.i
+.PHONY : opencv_version.cpp.i
+
+opencv_version.s: opencv_version.cpp.s
+
+.PHONY : opencv_version.s
+
+# target to generate assembly for a file
+opencv_version.cpp.s:
+	$(MAKE) -f CMakeFiles/opencv_version.dir/build.make CMakeFiles/opencv_version.dir/opencv_version.cpp.s
+.PHONY : opencv_version.cpp.s
 
 # Help Target
 help:
@@ -836,13 +1076,17 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... package_source"
+	@echo "... detect_markers"
+	@echo "... create_marker"
 	@echo "... task_2"
 	@echo "... task_1"
 	@echo "... tank"
 	@echo "... edit_cache"
 	@echo "... NightlyMemCheck"
+	@echo "... lab_5"
 	@echo "... ContinuousConfigure"
 	@echo "... ContinuousBuild"
+	@echo "... calibrate_camera_charuco"
 	@echo "... NightlyConfigure"
 	@echo "... NightlyMemoryCheck"
 	@echo "... ExperimentalTest"
@@ -865,6 +1109,7 @@ help:
 	@echo "... NightlyStart"
 	@echo "... ExperimentalCoverage"
 	@echo "... NightlyCoverage"
+	@echo "... opencv_version"
 	@echo "... ExperimentalStart"
 	@echo "... package"
 	@echo "... NightlyBuild"
@@ -873,13 +1118,32 @@ help:
 	@echo "... ContinuousStart"
 	@echo "... ContinuousMemCheck"
 	@echo "... ContinuousTest"
+	@echo "... create_board_charuco"
 	@echo "... ContinuousSubmit"
-	@echo "... blending.o"
-	@echo "... blending.i"
-	@echo "... blending.s"
-	@echo "... lab_2.o"
-	@echo "... lab_2.i"
-	@echo "... lab_2.s"
+	@echo "... calibrate_camera_charuco.o"
+	@echo "... calibrate_camera_charuco.i"
+	@echo "... calibrate_camera_charuco.s"
+	@echo "... create_board_charuco.o"
+	@echo "... create_board_charuco.i"
+	@echo "... create_board_charuco.s"
+	@echo "... create_marker.o"
+	@echo "... create_marker.i"
+	@echo "... create_marker.s"
+	@echo "... detect_markers.o"
+	@echo "... detect_markers.i"
+	@echo "... detect_markers.s"
+	@echo "... lab_1/blending.o"
+	@echo "... lab_1/blending.i"
+	@echo "... lab_1/blending.s"
+	@echo "... lab_1/main.o"
+	@echo "... lab_1/main.i"
+	@echo "... lab_1/main.s"
+	@echo "... lab_1/tank.o"
+	@echo "... lab_1/tank.i"
+	@echo "... lab_1/tank.s"
+	@echo "... lab_2/lab_2.o"
+	@echo "... lab_2/lab_2.i"
+	@echo "... lab_2/lab_2.s"
 	@echo "... lab_3/task_1.o"
 	@echo "... lab_3/task_1.i"
 	@echo "... lab_3/task_1.s"
@@ -892,12 +1156,12 @@ help:
 	@echo "... lab_3/task_4.o"
 	@echo "... lab_3/task_4.i"
 	@echo "... lab_3/task_4.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... tank.o"
-	@echo "... tank.i"
-	@echo "... tank.s"
+	@echo "... lab_5/main.o"
+	@echo "... lab_5/main.i"
+	@echo "... lab_5/main.s"
+	@echo "... opencv_version.o"
+	@echo "... opencv_version.i"
+	@echo "... opencv_version.s"
 .PHONY : help
 
 

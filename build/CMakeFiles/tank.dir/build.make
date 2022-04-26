@@ -57,27 +57,27 @@ include CMakeFiles/tank.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/tank.dir/flags.make
 
-CMakeFiles/tank.dir/tank.cpp.o: CMakeFiles/tank.dir/flags.make
-CMakeFiles/tank.dir/tank.cpp.o: ../tank.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/semyon/opencv_study/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tank.dir/tank.cpp.o"
-	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tank.dir/tank.cpp.o -c /home/semyon/opencv_study/tank.cpp
+CMakeFiles/tank.dir/lab_1/tank.cpp.o: CMakeFiles/tank.dir/flags.make
+CMakeFiles/tank.dir/lab_1/tank.cpp.o: ../lab_1/tank.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/semyon/opencv_study/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tank.dir/lab_1/tank.cpp.o"
+	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tank.dir/lab_1/tank.cpp.o -c /home/semyon/opencv_study/lab_1/tank.cpp
 
-CMakeFiles/tank.dir/tank.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tank.dir/tank.cpp.i"
-	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/semyon/opencv_study/tank.cpp > CMakeFiles/tank.dir/tank.cpp.i
+CMakeFiles/tank.dir/lab_1/tank.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tank.dir/lab_1/tank.cpp.i"
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/semyon/opencv_study/lab_1/tank.cpp > CMakeFiles/tank.dir/lab_1/tank.cpp.i
 
-CMakeFiles/tank.dir/tank.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tank.dir/tank.cpp.s"
-	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/semyon/opencv_study/tank.cpp -o CMakeFiles/tank.dir/tank.cpp.s
+CMakeFiles/tank.dir/lab_1/tank.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tank.dir/lab_1/tank.cpp.s"
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/semyon/opencv_study/lab_1/tank.cpp -o CMakeFiles/tank.dir/lab_1/tank.cpp.s
 
 # Object files for target tank
 tank_OBJECTS = \
-"CMakeFiles/tank.dir/tank.cpp.o"
+"CMakeFiles/tank.dir/lab_1/tank.cpp.o"
 
 # External object files for target tank
 tank_EXTERNAL_OBJECTS =
 
-tank: CMakeFiles/tank.dir/tank.cpp.o
+tank: CMakeFiles/tank.dir/lab_1/tank.cpp.o
 tank: CMakeFiles/tank.dir/build.make
 tank: /usr/local/lib/libopencv_gapi.so.4.5.4
 tank: /usr/local/lib/libopencv_stitching.so.4.5.4

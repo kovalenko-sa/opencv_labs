@@ -1,0 +1,1 @@
+/bin/x86_64-linux-gnu-g++-9  -g  -rdynamic CMakeFiles/lab_.dir/lab_3/task_4.cpp.o  -o lab_ 

@@ -57,27 +57,27 @@ include CMakeFiles/lab_2.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/lab_2.dir/flags.make
 
-CMakeFiles/lab_2.dir/lab_2.cpp.o: CMakeFiles/lab_2.dir/flags.make
-CMakeFiles/lab_2.dir/lab_2.cpp.o: ../lab_2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/semyon/opencv_study/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab_2.dir/lab_2.cpp.o"
-	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab_2.dir/lab_2.cpp.o -c /home/semyon/opencv_study/lab_2.cpp
+CMakeFiles/lab_2.dir/lab_2/lab_2.cpp.o: CMakeFiles/lab_2.dir/flags.make
+CMakeFiles/lab_2.dir/lab_2/lab_2.cpp.o: ../lab_2/lab_2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/semyon/opencv_study/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab_2.dir/lab_2/lab_2.cpp.o"
+	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab_2.dir/lab_2/lab_2.cpp.o -c /home/semyon/opencv_study/lab_2/lab_2.cpp
 
-CMakeFiles/lab_2.dir/lab_2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab_2.dir/lab_2.cpp.i"
-	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/semyon/opencv_study/lab_2.cpp > CMakeFiles/lab_2.dir/lab_2.cpp.i
+CMakeFiles/lab_2.dir/lab_2/lab_2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab_2.dir/lab_2/lab_2.cpp.i"
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/semyon/opencv_study/lab_2/lab_2.cpp > CMakeFiles/lab_2.dir/lab_2/lab_2.cpp.i
 
-CMakeFiles/lab_2.dir/lab_2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab_2.dir/lab_2.cpp.s"
-	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/semyon/opencv_study/lab_2.cpp -o CMakeFiles/lab_2.dir/lab_2.cpp.s
+CMakeFiles/lab_2.dir/lab_2/lab_2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab_2.dir/lab_2/lab_2.cpp.s"
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/semyon/opencv_study/lab_2/lab_2.cpp -o CMakeFiles/lab_2.dir/lab_2/lab_2.cpp.s
 
 # Object files for target lab_2
 lab_2_OBJECTS = \
-"CMakeFiles/lab_2.dir/lab_2.cpp.o"
+"CMakeFiles/lab_2.dir/lab_2/lab_2.cpp.o"
 
 # External object files for target lab_2
 lab_2_EXTERNAL_OBJECTS =
 
-lab_2: CMakeFiles/lab_2.dir/lab_2.cpp.o
+lab_2: CMakeFiles/lab_2.dir/lab_2/lab_2.cpp.o
 lab_2: CMakeFiles/lab_2.dir/build.make
 lab_2: /usr/local/lib/libopencv_gapi.so.4.5.4
 lab_2: /usr/local/lib/libopencv_stitching.so.4.5.4

@@ -1,6 +1,16 @@
 [
 {
   "directory": "/home/semyon/opencv_study/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/detect_markers.dir/detect_markers.cpp.o -c /home/semyon/opencv_study/detect_markers.cpp",
+  "file": "/home/semyon/opencv_study/detect_markers.cpp"
+},
+{
+  "directory": "/home/semyon/opencv_study/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/create_marker.dir/create_marker.cpp.o -c /home/semyon/opencv_study/create_marker.cpp",
+  "file": "/home/semyon/opencv_study/create_marker.cpp"
+},
+{
+  "directory": "/home/semyon/opencv_study/build",
   "command": "/bin/x86_64-linux-gnu-g++-9   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/task_2.dir/lab_3/task_2.cpp.o -c /home/semyon/opencv_study/lab_3/task_2.cpp",
   "file": "/home/semyon/opencv_study/lab_3/task_2.cpp"
 },
@@ -11,8 +21,18 @@
 },
 {
   "directory": "/home/semyon/opencv_study/build",
-  "command": "/bin/x86_64-linux-gnu-g++-9   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/tank.dir/tank.cpp.o -c /home/semyon/opencv_study/tank.cpp",
-  "file": "/home/semyon/opencv_study/tank.cpp"
+  "command": "/bin/x86_64-linux-gnu-g++-9   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/tank.dir/lab_1/tank.cpp.o -c /home/semyon/opencv_study/lab_1/tank.cpp",
+  "file": "/home/semyon/opencv_study/lab_1/tank.cpp"
+},
+{
+  "directory": "/home/semyon/opencv_study/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/lab_5.dir/lab_5/main.cpp.o -c /home/semyon/opencv_study/lab_5/main.cpp",
+  "file": "/home/semyon/opencv_study/lab_5/main.cpp"
+},
+{
+  "directory": "/home/semyon/opencv_study/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/calibrate_camera_charuco.dir/calibrate_camera_charuco.cpp.o -c /home/semyon/opencv_study/calibrate_camera_charuco.cpp",
+  "file": "/home/semyon/opencv_study/calibrate_camera_charuco.cpp"
 },
 {
   "directory": "/home/semyon/opencv_study/build",
@@ -26,17 +46,27 @@
 },
 {
   "directory": "/home/semyon/opencv_study/build",
-  "command": "/bin/x86_64-linux-gnu-g++-9   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/blending.dir/blending.cpp.o -c /home/semyon/opencv_study/blending.cpp",
-  "file": "/home/semyon/opencv_study/blending.cpp"
+  "command": "/bin/x86_64-linux-gnu-g++-9   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/blending.dir/lab_1/blending.cpp.o -c /home/semyon/opencv_study/lab_1/blending.cpp",
+  "file": "/home/semyon/opencv_study/lab_1/blending.cpp"
 },
 {
   "directory": "/home/semyon/opencv_study/build",
-  "command": "/bin/x86_64-linux-gnu-g++-9   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/lab_2.dir/lab_2.cpp.o -c /home/semyon/opencv_study/lab_2.cpp",
-  "file": "/home/semyon/opencv_study/lab_2.cpp"
+  "command": "/bin/x86_64-linux-gnu-g++-9   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/lab_2.dir/lab_2/lab_2.cpp.o -c /home/semyon/opencv_study/lab_2/lab_2.cpp",
+  "file": "/home/semyon/opencv_study/lab_2/lab_2.cpp"
 },
 {
   "directory": "/home/semyon/opencv_study/build",
-  "command": "/bin/x86_64-linux-gnu-g++-9   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/main.dir/main.cpp.o -c /home/semyon/opencv_study/main.cpp",
-  "file": "/home/semyon/opencv_study/main.cpp"
+  "command": "/bin/x86_64-linux-gnu-g++-9   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/main.dir/lab_1/main.cpp.o -c /home/semyon/opencv_study/lab_1/main.cpp",
+  "file": "/home/semyon/opencv_study/lab_1/main.cpp"
+},
+{
+  "directory": "/home/semyon/opencv_study/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/opencv_version.dir/opencv_version.cpp.o -c /home/semyon/opencv_study/opencv_version.cpp",
+  "file": "/home/semyon/opencv_study/opencv_version.cpp"
+},
+{
+  "directory": "/home/semyon/opencv_study/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/create_board_charuco.dir/create_board_charuco.cpp.o -c /home/semyon/opencv_study/create_board_charuco.cpp",
+  "file": "/home/semyon/opencv_study/create_board_charuco.cpp"
 }
 ]
